@@ -1,0 +1,23 @@
+Git:
+Git is a distributed version control system used to track changes in source code, manage different versions, and enable multiple developers to work on a project efficiently. local repository
+
+GitHub:
+GitHub is a web-based hosting platform that uses Git to store repositories online and helps developers share code, collaborate, and manage projects. remote repository
+
+Deployment
+git init
+git add .
+git commit -m "master"
+git remote add origin https://github.com/tharangini75/training.git
+git push -u origin master
+Steps: Enable GitHub Pages
+Go to your GitHub repository
+Click Settings
+Click Pages
+Under Source:
+Select Deploy from a branch
+Branch: master
+Folder: /root
+Click Save
+Custome domain : enter name and save
+visit site
